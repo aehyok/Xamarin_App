@@ -19,19 +19,19 @@
     <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)MasterDetailPageTest.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)MasterDetail\MasterDetailPageTest.xaml.cs">
       <DependentUpon>MasterDetailPageTest.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)MasterDetailPageTestDetail.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)MasterDetail\MasterDetailPageTestDetail.xaml.cs">
       <DependentUpon>MasterDetailPageTestDetail.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)MasterDetailPageTestMaster.xaml.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)MasterDetail\MasterDetailPageTestMaster.xaml.cs">
       <DependentUpon>MasterDetailPageTestMaster.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)MasterDetailPageTestMenuItem.cs">
+    <Compile Include="$(MSBuildThisFileDirectory)MasterDetail\MasterDetailPageTestMenuItem.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)PageTest.xaml.cs">
@@ -46,21 +46,24 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)MasterDetailPageTest.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)MasterDetail\MasterDetailPageTest.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)MasterDetailPageTestMaster.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)MasterDetail\MasterDetailPageTestMaster.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)MasterDetailPageTestDetail.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)MasterDetail\MasterDetailPageTestDetail.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)MasterDetail\" />
   </ItemGroup>
 </Project>
