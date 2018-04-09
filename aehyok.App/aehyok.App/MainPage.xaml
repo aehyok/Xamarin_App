@@ -4,8 +4,8 @@
              xmlns:local="clr-namespace:aehyok.App"
              x:Class="aehyok.App.MainPage">
 
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
-
+    <StackLayout>
+        <Button Text="Hello World" Clicked="Button_Clicked"></Button>
+        <Button Text="Open MasterDetailPageTest" Clicked="Button_Clicked_1"></Button>
+    </StackLayout>
 </ContentPage>

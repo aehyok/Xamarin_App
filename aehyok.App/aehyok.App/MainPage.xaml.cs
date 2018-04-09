@@ -13,5 +13,15 @@ namespace aehyok.App
 		{
 			InitializeComponent();
 		}
-	}
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new PageTest());
+        }
+
+        private void Button_Clicked_1(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new MasterDetailPageTest());
+        }
+    }
 }
