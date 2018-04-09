@@ -29,5 +29,10 @@ namespace aehyok.App
         {
             Navigation.PushModalAsync(new TabbedPageTest());
         }
+
+        private void Button_Clicked_3(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new MvvmDemoPage());
+        }
     }
 }
