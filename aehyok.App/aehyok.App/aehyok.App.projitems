@@ -34,6 +34,11 @@
     <Compile Include="$(MSBuildThisFileDirectory)MasterDetail\MasterDetailPageTestMenuItem.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)MVVM\AddNumViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MVVM\MvvmDemoPage2.xaml.cs">
+      <DependentUpon>MvvmDemoPage2.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)MVVM\TimeViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)PageTest.xaml.cs">
       <DependentUpon>PageTest.xaml</DependentUpon>
@@ -83,6 +88,12 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)MVVM\MvvmDemoPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)MVVM\MvvmDemoPage2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>

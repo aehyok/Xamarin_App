@@ -11,5 +11,7 @@
         <Button Text="Open TabbedPageTest" Clicked="Button_Clicked_2"></Button>
 
         <Button Text="Open MVVM 绑定数据一" Clicked="Button_Clicked_3"></Button>
+
+        <Button Text="Open MVVM 绑定数据二" Clicked="Button_Clicked_4"></Button>
     </StackLayout>
 </ContentPage>

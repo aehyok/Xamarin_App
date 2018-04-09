@@ -1,4 +1,5 @@
-﻿using aehyok.App.Tabbed;
+﻿using aehyok.App.MVVM;
+using aehyok.App.Tabbed;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,6 +34,11 @@ namespace aehyok.App
         private void Button_Clicked_3(object sender, EventArgs e)
         {
             Navigation.PushModalAsync(new MvvmDemoPage());
+        }
+
+        private void Button_Clicked_4(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new MvvmDemoPage2());
         }
     }
 }
