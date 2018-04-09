@@ -7,5 +7,7 @@
     <StackLayout>
         <Button Text="Hello World" Clicked="Button_Clicked"></Button>
         <Button Text="Open MasterDetailPageTest" Clicked="Button_Clicked_1"></Button>
+
+        <Button Text="Open TabbedPageTest" Clicked="Button_Clicked_2"></Button>
     </StackLayout>
 </ContentPage>

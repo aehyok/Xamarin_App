@@ -1,4 +1,5 @@
-﻿using System;
+﻿using aehyok.App.Tabbed;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,6 +23,11 @@ namespace aehyok.App
         private void Button_Clicked_1(object sender, EventArgs e)
         {
             Navigation.PushModalAsync(new MasterDetailPageTest());
+        }
+
+        private void Button_Clicked_2(object sender, EventArgs e)
+        {
+            Navigation.PushModalAsync(new TabbedPageTest());
         }
     }
 }
