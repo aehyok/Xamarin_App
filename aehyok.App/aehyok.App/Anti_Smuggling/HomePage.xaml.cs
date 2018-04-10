@@ -10,16 +10,18 @@ using Xamarin.Forms.Xaml;
 namespace aehyok.App.Anti_Smuggling
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class HomePage : ContentPage
-	{
+	public partial class HomePage : CustomPage
+    {
 		public HomePage ()
 		{
             //NavigationPage.SetHasNavigationBar(this, false);
             //NavigationPage.SetHasBackButton(this, false);
-            //NavigationPage.SetBackButtonTitle(this, "后退");
-            //NavigationPage.SetTitleIcon(this, "F96.png");
-            Title = "海关缉私移动应用";
+            NavigationPage.SetBackButtonTitle(this, "后退");
+            NavigationPage.SetTitleIcon(this, "F96.png");
             
+            CustomNavigationPage.SetTitlePosition(this, CustomNavigationPage.TitleAlignment.Center);
+            CustomNavigationPage.SetTitleBorderWidth(this, 10);
+
             InitializeComponent ();
         }
 

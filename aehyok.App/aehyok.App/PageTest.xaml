@@ -4,9 +4,9 @@
              x:Class="aehyok.App.PageTest">
     <ContentPage.Content>
         <StackLayout>
-            <Button Text="测试Alert" x:Name="alert" Clicked="alert_Clicked"></Button>
-            <Button Text="测试Commit Alert" x:Name="commitalert" Clicked="commitalert_Clicked"></Button>
-            <Button Text="测试多选Action Alert" x:Name="actionalert" Clicked="actionalert_Clicked"></Button>
+            <Button Text="测试Alert" x:Name="alert" Clicked="Alert_Clicked"></Button>
+            <Button Text="测试Commit Alert" x:Name="commitalert" Clicked="Commitalert_Clicked"></Button>
+            <Button Text="测试多选Action Alert" x:Name="actionalert" Clicked="Actionalert_Clicked"></Button>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
