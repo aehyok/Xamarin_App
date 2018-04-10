@@ -13,8 +13,9 @@ namespace aehyok.App
 		{
 			InitializeComponent();
 
-			MainPage = new aehyok.App.MainPage();
-		}
+            var mainPage = new NavigationPage(new MainPage()) { BarBackgroundColor = Color.FromRgb(82,104,180) };
+            Current.MainPage = mainPage;
+        }
 
 		protected override void OnStart ()
 		{

@@ -3,8 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:aehyok.App"
              x:Class="aehyok.App.MainPage">
-
     <StackLayout>
+        <Button Text="缉私平台" Clicked="Button_Clicked_5"></Button>
+        
         <Button Text="Hello World" Clicked="Button_Clicked"></Button>
         <Button Text="Open MasterDetailPageTest" Clicked="Button_Clicked_1"></Button>
 
