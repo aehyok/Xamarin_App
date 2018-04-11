@@ -29,5 +29,15 @@ namespace aehyok.App.Anti_Smuggling
         {
 
         }
+
+        private void Image_Focused(object sender, FocusEventArgs e)
+        {
+            DisplayAlert("提示页面", "请确认操作记录？", "OK ");
+        }
+
+        private void H11_ChildAdded(object sender, ElementEventArgs e)
+        {
+            DisplayAlert("提示页面", "请确认操作记录？", "OK1111 ");
+        }
     }
 }

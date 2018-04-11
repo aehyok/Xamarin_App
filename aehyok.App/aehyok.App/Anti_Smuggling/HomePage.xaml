@@ -7,10 +7,28 @@
         <ToolbarItem Text="添加"  Order="Default" Clicked="ToolbarItem_Clicked"   />
     </ContentPage.ToolbarItems>-->
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="4*"  />
+                <RowDefinition Height="200" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2.5*" />
+                <ColumnDefinition Width="2.5*" />
+                <ColumnDefinition Width="2.5*" />
+                <ColumnDefinition Width="2.5*" />
+            </Grid.ColumnDefinitions>
+            <Image Grid.Column="0" Grid.Row="1" Source="H11.png"></Image>
+            <Image Grid.Column="1" Grid.Row="1" Source="H21.png"></Image>
+            <Image Grid.Column="2" Grid.Row="1" Source="H31.png"></Image>
+            <Image Grid.Column="3" Grid.Row="1" Source="H41.png"></Image>
+
+            <Image Grid.Column="0" Grid.Row="2" Source="H11.png"></Image>
+            <Image Grid.Column="1" Grid.Row="2" Source="H21.png"></Image>
+            <Image Grid.Column="2" Grid.Row="2" Source="H31.png"></Image>
+            <Image Grid.Column="3" Grid.Row="2" Source="H41.png"></Image>
+
+        </Grid>
     </ContentPage.Content>
 </local:CustomPage>
