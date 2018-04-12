@@ -1,4 +1,5 @@
-﻿using System;
+﻿using aehyok.App.Droid;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -22,12 +23,13 @@ namespace aehyok.App.Anti_Smuggling
             CustomNavigationPage.SetTitlePosition(this, CustomNavigationPage.TitleAlignment.Center);
             CustomNavigationPage.SetTitleBorderWidth(this, 10);
 
+            //TestClient.GetJson();
             InitializeComponent ();
         }
 
         private void ToolbarItem_Clicked(object sender, EventArgs e)
         {
-
+            DisplayAlert("提示页面", "请确认操作记录？", "OK ");
         }
 
         private void Image_Focused(object sender, FocusEventArgs e)
@@ -38,6 +40,11 @@ namespace aehyok.App.Anti_Smuggling
         private void H11_ChildAdded(object sender, ElementEventArgs e)
         {
             DisplayAlert("提示页面", "请确认操作记录？", "OK1111 ");
+        }
+
+        private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
+        {
+
         }
     }
 }
