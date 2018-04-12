@@ -8,14 +8,14 @@ using Android.Content;
 using Android.Content.PM;
 using Android.OS;
 using Android.Runtime;
+using Android.Support.V7.App;
 using Android.Views;
 using Android.Widget;
 
 namespace aehyok.App.Droid
 {
-    [Activity(MainLauncher = true, NoHistory = true, Theme = "@style/Theme.Splash",
-       ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
-    public class SplashScreen : Activity
+    [Activity(Theme = "@style/Theme.Splash", MainLauncher = true)]
+    public class SplashScreen :AppCompatActivity
     {
         protected override void OnCreate(Bundle bundle)
         {

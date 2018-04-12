@@ -1173,44 +1173,44 @@ namespace aehyok.App.Droid
 		public partial class Color
 		{
 			
-			// aapt resource value: 0x7f0c004a
-			public const int abc_background_cache_hint_selector_material_dark = 2131492938;
+			// aapt resource value: 0x7f0c0054
+			public const int abc_background_cache_hint_selector_material_dark = 2131492948;
 			
-			// aapt resource value: 0x7f0c004b
-			public const int abc_background_cache_hint_selector_material_light = 2131492939;
+			// aapt resource value: 0x7f0c0055
+			public const int abc_background_cache_hint_selector_material_light = 2131492949;
 			
-			// aapt resource value: 0x7f0c004c
-			public const int abc_btn_colored_borderless_text_material = 2131492940;
+			// aapt resource value: 0x7f0c0056
+			public const int abc_btn_colored_borderless_text_material = 2131492950;
 			
-			// aapt resource value: 0x7f0c004d
-			public const int abc_btn_colored_text_material = 2131492941;
+			// aapt resource value: 0x7f0c0057
+			public const int abc_btn_colored_text_material = 2131492951;
 			
-			// aapt resource value: 0x7f0c004e
-			public const int abc_color_highlight_material = 2131492942;
+			// aapt resource value: 0x7f0c0058
+			public const int abc_color_highlight_material = 2131492952;
 			
-			// aapt resource value: 0x7f0c004f
-			public const int abc_hint_foreground_material_dark = 2131492943;
+			// aapt resource value: 0x7f0c0059
+			public const int abc_hint_foreground_material_dark = 2131492953;
 			
-			// aapt resource value: 0x7f0c0050
-			public const int abc_hint_foreground_material_light = 2131492944;
+			// aapt resource value: 0x7f0c005a
+			public const int abc_hint_foreground_material_light = 2131492954;
 			
 			// aapt resource value: 0x7f0c0005
 			public const int abc_input_method_navigation_guard = 2131492869;
 			
-			// aapt resource value: 0x7f0c0051
-			public const int abc_primary_text_disable_only_material_dark = 2131492945;
+			// aapt resource value: 0x7f0c005b
+			public const int abc_primary_text_disable_only_material_dark = 2131492955;
 			
-			// aapt resource value: 0x7f0c0052
-			public const int abc_primary_text_disable_only_material_light = 2131492946;
+			// aapt resource value: 0x7f0c005c
+			public const int abc_primary_text_disable_only_material_light = 2131492956;
 			
-			// aapt resource value: 0x7f0c0053
-			public const int abc_primary_text_material_dark = 2131492947;
+			// aapt resource value: 0x7f0c005d
+			public const int abc_primary_text_material_dark = 2131492957;
 			
-			// aapt resource value: 0x7f0c0054
-			public const int abc_primary_text_material_light = 2131492948;
+			// aapt resource value: 0x7f0c005e
+			public const int abc_primary_text_material_light = 2131492958;
 			
-			// aapt resource value: 0x7f0c0055
-			public const int abc_search_url_text = 2131492949;
+			// aapt resource value: 0x7f0c005f
+			public const int abc_search_url_text = 2131492959;
 			
 			// aapt resource value: 0x7f0c0006
 			public const int abc_search_url_text_normal = 2131492870;
@@ -1221,32 +1221,35 @@ namespace aehyok.App.Droid
 			// aapt resource value: 0x7f0c0008
 			public const int abc_search_url_text_selected = 2131492872;
 			
-			// aapt resource value: 0x7f0c0056
-			public const int abc_secondary_text_material_dark = 2131492950;
+			// aapt resource value: 0x7f0c0060
+			public const int abc_secondary_text_material_dark = 2131492960;
 			
-			// aapt resource value: 0x7f0c0057
-			public const int abc_secondary_text_material_light = 2131492951;
+			// aapt resource value: 0x7f0c0061
+			public const int abc_secondary_text_material_light = 2131492961;
 			
-			// aapt resource value: 0x7f0c0058
-			public const int abc_tint_btn_checkable = 2131492952;
+			// aapt resource value: 0x7f0c0062
+			public const int abc_tint_btn_checkable = 2131492962;
 			
-			// aapt resource value: 0x7f0c0059
-			public const int abc_tint_default = 2131492953;
+			// aapt resource value: 0x7f0c0063
+			public const int abc_tint_default = 2131492963;
 			
-			// aapt resource value: 0x7f0c005a
-			public const int abc_tint_edittext = 2131492954;
+			// aapt resource value: 0x7f0c0064
+			public const int abc_tint_edittext = 2131492964;
 			
-			// aapt resource value: 0x7f0c005b
-			public const int abc_tint_seek_thumb = 2131492955;
+			// aapt resource value: 0x7f0c0065
+			public const int abc_tint_seek_thumb = 2131492965;
 			
-			// aapt resource value: 0x7f0c005c
-			public const int abc_tint_spinner = 2131492956;
+			// aapt resource value: 0x7f0c0066
+			public const int abc_tint_spinner = 2131492966;
 			
-			// aapt resource value: 0x7f0c005d
-			public const int abc_tint_switch_thumb = 2131492957;
+			// aapt resource value: 0x7f0c0067
+			public const int abc_tint_switch_thumb = 2131492967;
 			
-			// aapt resource value: 0x7f0c005e
-			public const int abc_tint_switch_track = 2131492958;
+			// aapt resource value: 0x7f0c0068
+			public const int abc_tint_switch_track = 2131492968;
+			
+			// aapt resource value: 0x7f0c004d
+			public const int accent = 2131492941;
 			
 			// aapt resource value: 0x7f0c0009
 			public const int accent_material_dark = 2131492873;
@@ -1305,8 +1308,8 @@ namespace aehyok.App.Droid
 			// aapt resource value: 0x7f0c003f
 			public const int design_bottom_navigation_shadow_color = 2131492927;
 			
-			// aapt resource value: 0x7f0c005f
-			public const int design_error = 2131492959;
+			// aapt resource value: 0x7f0c0069
+			public const int design_error = 2131492969;
 			
 			// aapt resource value: 0x7f0c0040
 			public const int design_fab_shadow_end_color = 2131492928;
@@ -1338,8 +1341,8 @@ namespace aehyok.App.Droid
 			// aapt resource value: 0x7f0c0049
 			public const int design_textinput_error_color_light = 2131492937;
 			
-			// aapt resource value: 0x7f0c0060
-			public const int design_tint_password_toggle = 2131492960;
+			// aapt resource value: 0x7f0c006a
+			public const int design_tint_password_toggle = 2131492970;
 			
 			// aapt resource value: 0x7f0c0017
 			public const int dim_foreground_disabled_material_dark = 2131492887;
@@ -1353,6 +1356,9 @@ namespace aehyok.App.Droid
 			// aapt resource value: 0x7f0c001a
 			public const int dim_foreground_material_light = 2131492890;
 			
+			// aapt resource value: 0x7f0c0052
+			public const int divider = 2131492946;
+			
 			// aapt resource value: 0x7f0c001b
 			public const int foreground_material_dark = 2131492891;
 			
@@ -1364,6 +1370,9 @@ namespace aehyok.App.Droid
 			
 			// aapt resource value: 0x7f0c001e
 			public const int highlighted_text_material_light = 2131492894;
+			
+			// aapt resource value: 0x7f0c0051
+			public const int icons = 2131492945;
 			
 			// aapt resource value: 0x7f0c001f
 			public const int material_blue_grey_800 = 2131492895;
@@ -1401,6 +1410,9 @@ namespace aehyok.App.Droid
 			// aapt resource value: 0x7f0c002a
 			public const int material_grey_900 = 2131492906;
 			
+			// aapt resource value: 0x7f0c0050
+			public const int more_secondary_text = 2131492944;
+			
 			// aapt resource value: 0x7f0c0004
 			public const int notification_action_color_filter = 2131492868;
 			
@@ -1410,17 +1422,29 @@ namespace aehyok.App.Droid
 			// aapt resource value: 0x7f0c002c
 			public const int notification_material_background_media_default_color = 2131492908;
 			
+			// aapt resource value: 0x7f0c004a
+			public const int primary = 2131492938;
+			
+			// aapt resource value: 0x7f0c004b
+			public const int primary_dark = 2131492939;
+			
 			// aapt resource value: 0x7f0c002d
 			public const int primary_dark_material_dark = 2131492909;
 			
 			// aapt resource value: 0x7f0c002e
 			public const int primary_dark_material_light = 2131492910;
 			
+			// aapt resource value: 0x7f0c004c
+			public const int primary_light = 2131492940;
+			
 			// aapt resource value: 0x7f0c002f
 			public const int primary_material_dark = 2131492911;
 			
 			// aapt resource value: 0x7f0c0030
 			public const int primary_material_light = 2131492912;
+			
+			// aapt resource value: 0x7f0c004e
+			public const int primary_text = 2131492942;
 			
 			// aapt resource value: 0x7f0c0031
 			public const int primary_text_default_material_dark = 2131492913;
@@ -1440,6 +1464,9 @@ namespace aehyok.App.Droid
 			// aapt resource value: 0x7f0c0036
 			public const int ripple_material_light = 2131492918;
 			
+			// aapt resource value: 0x7f0c004f
+			public const int secondary_text = 2131492943;
+			
 			// aapt resource value: 0x7f0c0037
 			public const int secondary_text_default_material_dark = 2131492919;
 			
@@ -1458,17 +1485,20 @@ namespace aehyok.App.Droid
 			// aapt resource value: 0x7f0c003c
 			public const int switch_thumb_disabled_material_light = 2131492924;
 			
-			// aapt resource value: 0x7f0c0061
-			public const int switch_thumb_material_dark = 2131492961;
+			// aapt resource value: 0x7f0c006b
+			public const int switch_thumb_material_dark = 2131492971;
 			
-			// aapt resource value: 0x7f0c0062
-			public const int switch_thumb_material_light = 2131492962;
+			// aapt resource value: 0x7f0c006c
+			public const int switch_thumb_material_light = 2131492972;
 			
 			// aapt resource value: 0x7f0c003d
 			public const int switch_thumb_normal_material_dark = 2131492925;
 			
 			// aapt resource value: 0x7f0c003e
 			public const int switch_thumb_normal_material_light = 2131492926;
+			
+			// aapt resource value: 0x7f0c0053
+			public const int window_background = 2131492947;
 			
 			static Color()
 			{
