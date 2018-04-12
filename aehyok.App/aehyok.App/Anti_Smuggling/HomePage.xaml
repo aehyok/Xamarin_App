@@ -19,12 +19,14 @@
                 <ColumnDefinition Width="3.33*" />
                 <ColumnDefinition Width="3.33*" />
             </Grid.ColumnDefinitions>
-            <Image Grid.Column="0" Grid.Row="1" x:Name="H11" Source="H11.png" VerticalOptions="CenterAndExpand">
+            <Image x:Name="H11" Grid.Column="0" Grid.Row="1"  Source="H11.png" VerticalOptions="CenterAndExpand">
+
+            </Image>
+            <Image x:Name="H21" Grid.Column="1" Grid.Row="1" Source="H21.png">
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer  Tapped="TapGestureRecognizer_Tapped"></TapGestureRecognizer>
                 </Image.GestureRecognizers>
             </Image>
-            <Image Grid.Column="1" Grid.Row="1" Source="H21.png" x:Name="H21"></Image>
             <Image Grid.Column="2" Grid.Row="1" Source="H31.png"></Image>
 
             <Image Grid.Column="0" Grid.Row="2" Source="H41.png"></Image>

@@ -13,7 +13,20 @@ namespace aehyok.App.Anti_Smuggling
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class HomePage : CustomPage
     {
-		public HomePage ()
+
+        protected override void OnAppearing()
+        {
+            var tapGestureRecognizer = new TapGestureRecognizer();
+
+            tapGestureRecognizer.NumberOfTapsRequired = 1;
+            tapGestureRecognizer.Tapped += (s, e) =>
+            {
+                DisplayAlert("提示页面", "请确认操作记录？", "OK ");
+            };
+            H11.GestureRecognizers.Add(tapGestureRecognizer);
+            base.OnAppearing();
+        }
+        public HomePage ()
 		{
             //NavigationPage.SetHasNavigationBar(this, false);
             //NavigationPage.SetHasBackButton(this, false);
@@ -23,7 +36,10 @@ namespace aehyok.App.Anti_Smuggling
             CustomNavigationPage.SetTitlePosition(this, CustomNavigationPage.TitleAlignment.Center);
             CustomNavigationPage.SetTitleBorderWidth(this, 10);
 
+            //调用Web Api测试
             //TestClient.GetJson();
+
+
             InitializeComponent ();
         }
 
@@ -44,7 +60,7 @@ namespace aehyok.App.Anti_Smuggling
 
         private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
-
+            DisplayAlert("提示页面", "请确认操作记录？", "OK1111 ");
         }
     }
 }
