@@ -10,7 +10,7 @@ using Android.OS;
 namespace aehyok.App.Droid
 {
     //app名称和图标的设置
-    [Activity(Label = "缉私平台", Icon = "@drawable/F96", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "缉私平台", Icon = "@drawable/F96", Theme = "@style/MainTheme", ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override void OnCreate(Bundle bundle)
