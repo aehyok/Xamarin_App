@@ -23,7 +23,7 @@ namespace aehyok.App.Anti_Smuggling
             tapGestureRecognizer.NumberOfTapsRequired = 1;
             tapGestureRecognizer.Tapped += (s, e) =>
             {
-                H11.Source = "H12.png";
+                //H11.Source = "H12.png";
                 Navigation.PushAsync(new BbsMessage());
             };
             //tapGestureRecognizer
