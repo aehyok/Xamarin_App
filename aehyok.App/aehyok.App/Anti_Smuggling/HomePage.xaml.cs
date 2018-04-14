@@ -16,13 +16,17 @@ namespace aehyok.App.Anti_Smuggling
 
         protected override void OnAppearing()
         {
-            var tapGestureRecognizer = new TapGestureRecognizer();
+            Image image = new Image();
 
+            //image上添加单击Tap事件
+            var tapGestureRecognizer = new TapGestureRecognizer();
             tapGestureRecognizer.NumberOfTapsRequired = 1;
             tapGestureRecognizer.Tapped += (s, e) =>
             {
-                DisplayAlert("提示页面", "请确认操作记录？", "OK ");
+                H11.Source = "H12.png";
+                Navigation.PushAsync(new BbsMessage());
             };
+            //tapGestureRecognizer
             H11.GestureRecognizers.Add(tapGestureRecognizer);
             base.OnAppearing();
         }
@@ -30,8 +34,8 @@ namespace aehyok.App.Anti_Smuggling
 		{
             //NavigationPage.SetHasNavigationBar(this, false);
             //NavigationPage.SetHasBackButton(this, false);
-            NavigationPage.SetBackButtonTitle(this, "后退");
-            NavigationPage.SetTitleIcon(this, "F96.png");
+            //NavigationPage.SetBackButtonTitle(this, "后退");
+            //NavigationPage.SetTitleIcon(this, "F96.png");
             
             CustomNavigationPage.SetTitlePosition(this, CustomNavigationPage.TitleAlignment.Center);
             CustomNavigationPage.SetTitleBorderWidth(this, 10);

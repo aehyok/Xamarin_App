@@ -14,7 +14,7 @@ using Android.Widget;
 
 namespace aehyok.App.Droid
 {
-    [Activity(Theme = "@style/Theme.Splash", MainLauncher = true)]
+    [Activity(Label = "缉私平台", Icon = "@drawable/F96",Theme = "@style/Theme.Splash", MainLauncher = true)]
     public class SplashScreen :AppCompatActivity
     {
         protected override void OnCreate(Bundle bundle)

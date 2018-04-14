@@ -16,6 +16,26 @@ namespace aehyok.App
 		{
 			InitializeComponent();
             this.Title = "缉私平台";
+
+            var myButton = new Button
+            {
+                Text = "自定义按钮",
+                HorizontalOptions = LayoutOptions.FillAndExpand
+            };
+
+            myButton.Pressed += (sender, args) =>
+            {
+                myButton.BackgroundColor = Color.Red;
+            };
+            myButton.Released += (sender, args) =>
+            {
+                myButton.BackgroundColor = Color.Blue;
+            };
+        }
+
+        protected override void OnAppearing()
+        {
+            base.OnAppearing();
         }
 
         private void Button_Clicked(object sender, EventArgs e)
