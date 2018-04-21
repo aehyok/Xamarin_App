@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aehyok.App.Anti_Smuggling.ListViewItemCell">
+    <Grid x:Name="GridView" BackgroundColor="Green">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="160"/>
+            <ColumnDefinition Width="160"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="200"/>
+        </Grid.ColumnDefinitions>
+
+        <Image x:Name="H11" Margin="15,0,15,0" Grid.Column="0" Grid.RowSpan="3"  Source="H11.png">
+        </Image>
+        <Label Grid.Row="0"
+               Grid.ColumnSpan="3"
+               Text="{Binding Title}" />
+        <Label Grid.Row="1"
+               Grid.ColumnSpan="3"
+               Text="{Binding Detail}" />
+        <Label Grid.Row="2"
+               Grid.Column="1"
+               Text="呈请人员：张三"/>
+        <Label Grid.Row="2"
+               Grid.Column="3"
+               Text="{Binding DateTimes}"/>
+    </Grid>
+</ContentView>

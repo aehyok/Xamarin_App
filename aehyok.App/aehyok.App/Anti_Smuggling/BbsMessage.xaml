@@ -1,9 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:cells="clr-namespace:aehyok.App.Anti_Smuggling"
              x:Class="aehyok.App.Anti_Smuggling.BbsMessage" Title="公告管理">
-    <ListView x:Name="listView" 
-			  ItemTapped="OnItemTapped"
-			  ItemsSource="{Binding .}" />
-
+    <ListView x:Name="listView">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <cells:ListViewItemCell />
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
 </ContentPage>
