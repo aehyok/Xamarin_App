@@ -21,6 +21,18 @@ namespace aehyok.App.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
+
+            var width = Resources.DisplayMetrics.WidthPixels;
+
+            var height = Resources.DisplayMetrics.HeightPixels;
+
+            var density = Resources.DisplayMetrics.Density; //屏幕密度
+
+
+
+            var ScreenWidth = width / density; //屏幕宽度
+
+            var ScreenHeight = height / density; //屏幕高度 含24个单位的标题栏高度 通过OnSizeAllocated获取的高度不含标题栏高度
             LoadApplication(new App());
         }
     }
