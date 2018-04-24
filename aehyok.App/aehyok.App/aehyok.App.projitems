@@ -34,10 +34,6 @@
       <DependentUpon>CustomPage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)LayoutPage.xaml.cs">
-      <DependentUpon>LayoutPage.xaml</DependentUpon>
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)LayoutPageTest.xaml.cs">
       <DependentUpon>LayoutPageTest.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -72,6 +68,10 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)MVVM\MvvmDemoPage.xaml.cs">
       <DependentUpon>MvvmDemoPage.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)PdfViewPage.xaml.cs">
+      <DependentUpon>PdfViewPage.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Tabbed\TabbedPageTest.xaml.cs">
@@ -149,13 +149,13 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)LayoutPage.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)LayoutPageTest.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)LayoutPageTest.xaml">
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)PdfViewPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </EmbeddedResource>

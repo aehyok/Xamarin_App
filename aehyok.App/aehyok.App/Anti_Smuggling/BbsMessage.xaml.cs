@@ -45,5 +45,10 @@ namespace aehyok.App.Anti_Smuggling
             DisplayAlert("提示页面", e.Item.ToString(), "OK ");
             ((ListView)sender).SelectedItem = null; // de-select the row
         }
+
+        private void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            
+        }
     }
 }

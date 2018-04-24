@@ -82,5 +82,15 @@ namespace aehyok.App
         {
             Navigation.PushAsync(new LayoutPageTest());
         }
+
+        /// <summary>
+        /// OpenPDF页面
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Button_Clicked_7(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new PdfViewPage());
+        }
     }
 }
