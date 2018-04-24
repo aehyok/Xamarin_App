@@ -29,16 +29,16 @@
                Grid.Column="0"
                FontSize="11"
                Grid.ColumnSpan="3"
-               Text="审批事项：受案审批" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
+               Text="审批事项：受案审批" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand" />
         <Label Grid.Row="2"
                Grid.Column="2"
                Grid.ColumnSpan="2"
                FontSize="10"
-               Text="呈请人员：张三" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"/>
+               Text="呈请人员：张三" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand"/>
         <Label Grid.Row="2"
                Grid.Column="3"
                FontSize="10"
-               Text="呈请时间：2018年4月24日" HorizontalOptions="End" VerticalOptions="FillAndExpand"/>
+               Text="呈请时间：2018年4月24日" HorizontalOptions="End" VerticalOptions="EndAndExpand"/>
         <StackLayout Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="4">
             <BoxView HeightRequest="1" BackgroundColor="#D6D9DC"></BoxView>
         </StackLayout>
