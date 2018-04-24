@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="aehyok.App.LayoutPage">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="45"></ColumnDefinition>
+            <ColumnDefinition Width="90"></ColumnDefinition>
+            <ColumnDefinition Width="90"></ColumnDefinition>
+            <ColumnDefinition Width="90"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Image  x:Name="H11" Margin="0" Grid.Column="0" Grid.Row="0" Grid.RowSpan="2" BackgroundColor="DarkOrange" Source="H11.png" WidthRequest="145" HeightRequest="145" >
+        </Image>
+        <Label Grid.Row="0" 
+               Grid.Column="1"
+               Grid.ColumnSpan="3"
+               
+                BackgroundColor="Green" />
+        <Label Grid.Row="1" 
+               Grid.Column="1"
+               Grid.ColumnSpan="3"
+               
+                BackgroundColor="Yellow" />
+        <Label Grid.Row="2"
+               Grid.Column="1"
+               FontSize="Small"
+               Text="呈请人员：张三" BackgroundColor="Red"/>
+        <Label Grid.Row="2"
+               Grid.Column="3"
+               FontSize="Small"
+                BackgroundColor="Blue"/>
+    </Grid>
+    
+    
+    
+</ContentView>

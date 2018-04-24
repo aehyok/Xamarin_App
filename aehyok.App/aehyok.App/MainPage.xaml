@@ -14,5 +14,7 @@
         <Button Text="Open MVVM 绑定数据一" Clicked="Button_Clicked_3"></Button>
 
         <Button Text="Open MVVM 绑定数据二" Clicked="Button_Clicked_4"></Button>
+        
+        <Button Text="布局页面" Clicked="Button_Clicked_6"></Button>
     </StackLayout>
 </ContentPage>

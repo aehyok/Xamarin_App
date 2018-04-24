@@ -72,5 +72,15 @@ namespace aehyok.App
         {
             Navigation.PushAsync(new HomePage());  //PushAsync保留顶部导航
         }
+
+        /// <summary>
+        /// 布局测试页面
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Button_Clicked_6(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new LayoutPageTest());
+        }
     }
 }
