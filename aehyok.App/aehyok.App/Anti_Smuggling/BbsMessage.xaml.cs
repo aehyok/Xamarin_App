@@ -30,6 +30,10 @@ namespace aehyok.App.Anti_Smuggling
                 new ListViewItem(){ Title="Title6",Detail="Detail6",DateTimes="呈请时间：2018年4月21日"},
                 new ListViewItem(){ Title="Title7",Detail="Detail7",DateTimes="呈请时间：2018年4月21日"},
                 new ListViewItem(){ Title="Title8",Detail="Detail8",DateTimes="呈请时间：2018年4月21日"},
+                new ListViewItem(){ Title="Title1Title1Titl5555",Detail="Detail5",DateTimes="呈请时间：2018年4月21日"},
+                new ListViewItem(){ Title="Title6",Detail="Detail6",DateTimes="呈请时间：2018年4月21日"},
+                new ListViewItem(){ Title="Title7",Detail="Detail7",DateTimes="呈请时间：2018年4月21日"},
+                new ListViewItem(){ Title="Title8",Detail="Detail8",DateTimes="呈请时间：2018年4月21日"}
             };
             listView.ItemsSource = source;
             base.OnAppearing();
@@ -38,6 +42,7 @@ namespace aehyok.App.Anti_Smuggling
         {
             if (e == null) return; // has been set to null, do not 'process' tapped event
             Debug.WriteLine("Tapped: " + e.Item);
+            DisplayAlert("提示页面", e.Item.ToString(), "OK ");
             ((ListView)sender).SelectedItem = null; // de-select the row
         }
     }
