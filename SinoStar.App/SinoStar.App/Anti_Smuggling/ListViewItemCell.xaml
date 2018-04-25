@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SinoStar.App.Anti_Smuggling.ListViewItemCell">
+    <Grid ColumnSpacing="0" RowSpacing="2" BackgroundColor="#C8DCFD">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="15"></RowDefinition>
+            <RowDefinition Height="2"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="40"></ColumnDefinition>
+            <ColumnDefinition Width="70"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="135"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Image  x:Name="H11" Grid.Column="0" Grid.Row="0" Grid.RowSpan="2"  
+                Source="H11.png"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" 
+                ></Image>
+        <Label Grid.Row="0" 
+               Grid.Column="1"
+               Grid.ColumnSpan="3"
+               Text="案件编号：123456789012345678" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"  />
+        <Label Grid.Row="1" 
+               Grid.Column="1"
+               Grid.ColumnSpan="3"
+               Text="案件名称：深圳市腾讯科技有限公司走私手机" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"  />
+        <Label Grid.Row="2" 
+               Grid.Column="0"
+               FontSize="11"
+               Grid.ColumnSpan="3"
+               Text="审批事项：受案审批" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand" />
+        <Label Grid.Row="2"
+               Grid.Column="2"
+               Grid.ColumnSpan="2"
+               FontSize="10"
+               Text="呈请人员：张三" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand"/>
+        <Label Grid.Row="2"
+               Grid.Column="3"
+               FontSize="10"
+               Text="呈请时间：2018年4月24日" HorizontalOptions="End" VerticalOptions="EndAndExpand"/>
+        <StackLayout Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="4">
+            <BoxView HeightRequest="1" BackgroundColor="#D6D9DC"></BoxView>
+        </StackLayout>
+    </Grid>
+</ContentView>

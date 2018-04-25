@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SinoStar.App.Demo.HomePage" Title="测试版demo">
+    <StackLayout>
+        <Button Text="Hello World" Clicked="Button_Clicked"></Button>
+        <Button Text="Open MasterDetailPageTest" Clicked="Button_Clicked_1"></Button>
+
+        <Button Text="Open TabbedPageTest" Clicked="Button_Clicked_2"></Button>
+
+        <Button Text="Open MVVM 绑定数据一" Clicked="Button_Clicked_3"></Button>
+
+        <Button Text="Open MVVM 绑定数据二" Clicked="Button_Clicked_4"></Button>
+
+        <Button Text="布局页面" Clicked="Button_Clicked_6"></Button>
+
+        <Button Text="打开PDF" Clicked="Button_Clicked_7"></Button>
+    </StackLayout>
+</ContentPage>

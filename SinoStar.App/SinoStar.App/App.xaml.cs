@@ -12,9 +12,9 @@ namespace SinoStar.App
 		public App ()
 		{
 			InitializeComponent();
-
-			MainPage = new SinoStar.App.MainPage();
-		}
+            var mainPage = new NavigationPage(new MainPage()) { BarBackgroundColor = Color.FromRgb(82, 104, 180) };
+            MainPage = mainPage;
+        }
 
 		protected override void OnStart ()
 		{
