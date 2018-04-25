@@ -64,5 +64,15 @@ namespace SinoStar.App.Demo
         {
             Navigation.PushAsync(new PdfViewPage());
         }
+
+        /// <summary>
+        /// Open网页页面
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void Button_Clicked_8(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new WebViewPageTest());
+        }
     }
 }
