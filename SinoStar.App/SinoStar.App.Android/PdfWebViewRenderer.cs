@@ -33,6 +33,7 @@ namespace SinoStar.App.Droid
                 var customWebView = Element as PdfWebView;
                 Control.Settings.AllowUniversalAccessFromFileURLs = true;
                 Control.LoadUrl(string.Format("file:///android_asset/pdfjs/web/viewer.html?file={0}", string.Format("file:///android_asset/Content/{0}", WebUtility.UrlEncode(customWebView.Uri))));
+                //Control.LoadUrl(string.Format("file:///android_asset/pdfjs/web/viewer.html?file={0}", "http://192.168.1.74:8090/pdf/100100.pdf"));
             }
         }
     }
