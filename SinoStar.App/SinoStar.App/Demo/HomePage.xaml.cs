@@ -74,5 +74,10 @@ namespace SinoStar.App.Demo
         {
             Navigation.PushAsync(new WebViewPageTest());
         }
+
+        private void Button_Clicked_9(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new TPPhoto());
+        }
     }
 }
