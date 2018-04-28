@@ -27,6 +27,11 @@ namespace SinoStar.App.Droid
 		public static void UpdateIdValues()
 		{
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.actionBarSize = global::SinoStar.App.Droid.Resource.Attribute.actionBarSize;
+			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.zxingscanneractivitylayout = global::SinoStar.App.Droid.Resource.Layout.zxingscanneractivitylayout;
+			global::ZXing.Net.Mobile.Forms.Android.Resource.Layout.zxingscannerfragmentlayout = global::SinoStar.App.Droid.Resource.Layout.zxingscannerfragmentlayout;
+			global::ZXing.Mobile.Resource.Id.contentFrame = global::SinoStar.App.Droid.Resource.Id.contentFrame;
+			global::ZXing.Mobile.Resource.Layout.zxingscanneractivitylayout = global::SinoStar.App.Droid.Resource.Layout.zxingscanneractivitylayout;
+			global::ZXing.Mobile.Resource.Layout.zxingscannerfragmentlayout = global::SinoStar.App.Droid.Resource.Layout.zxingscannerfragmentlayout;
 		}
 		
 		public partial class Animation
@@ -2976,6 +2981,9 @@ namespace SinoStar.App.Droid
 			// aapt resource value: 0x7f090075
 			public const int container = 2131296373;
 			
+			// aapt resource value: 0x7f0900b4
+			public const int contentFrame = 2131296436;
+			
 			// aapt resource value: 0x7f09004e
 			public const int contentPanel = 2131296334;
 			
@@ -3090,8 +3098,8 @@ namespace SinoStar.App.Droid
 			// aapt resource value: 0x7f090048
 			public const int list_item = 2131296328;
 			
-			// aapt resource value: 0x7f0900b5
-			public const int masked = 2131296437;
+			// aapt resource value: 0x7f0900b6
+			public const int masked = 2131296438;
 			
 			// aapt resource value: 0x7f0900a1
 			public const int media_actions = 2131296417;
@@ -3396,8 +3404,8 @@ namespace SinoStar.App.Droid
 			// aapt resource value: 0x7f09000e
 			public const int view_offset_helper = 2131296270;
 			
-			// aapt resource value: 0x7f0900b4
-			public const int visible = 2131296436;
+			// aapt resource value: 0x7f0900b5
+			public const int visible = 2131296437;
 			
 			// aapt resource value: 0x7f090093
 			public const int volume_item_container = 2131296403;
@@ -3692,6 +3700,12 @@ namespace SinoStar.App.Droid
 			
 			// aapt resource value: 0x7f030043
 			public const int Toolbar = 2130903107;
+			
+			// aapt resource value: 0x7f030044
+			public const int zxingscanneractivitylayout = 2130903108;
+			
+			// aapt resource value: 0x7f030045
+			public const int zxingscannerfragmentlayout = 2130903109;
 			
 			static Layout()
 			{

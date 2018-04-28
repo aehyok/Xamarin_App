@@ -79,5 +79,10 @@ namespace SinoStar.App.Demo
         {
             Navigation.PushAsync(new TPPhoto());
         }
+
+        private void Button_Clicked_10(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new QrCodeTest());
+        }
     }
 }

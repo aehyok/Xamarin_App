@@ -18,5 +18,6 @@
 
         <Button Text="打开网页" Clicked="Button_Clicked_8"></Button>
         <Button Text="Take And Pick Photo" Clicked="Button_Clicked_9"></Button>
+        <Button Text="QrCode" Clicked="Button_Clicked_10"></Button>
     </StackLayout>
 </ContentPage>

@@ -20,6 +20,8 @@ namespace SinoStar.App.Droid
 
             base.OnCreate(bundle);
 
+            ZXing.Net.Mobile.Forms.Android.Platform.Init();
+
             global::Xamarin.Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
         }
@@ -27,6 +29,8 @@ namespace SinoStar.App.Droid
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, Android.Content.PM.Permission[] grantResults)
         {
             PermissionsImplementation.Current.OnRequestPermissionsResult(requestCode, permissions, grantResults);
+
+            global::ZXing.Net.Mobile.Android.PermissionsHandler.OnRequestPermissionsResult(requestCode, permissions, grantResults);
         }
     }
 }
