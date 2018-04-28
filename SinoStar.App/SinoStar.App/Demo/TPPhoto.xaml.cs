@@ -14,6 +14,9 @@ namespace SinoStar.App.Demo
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class TPPhoto : ContentPage
 	{
+        /// <summary>
+        /// 权限设置 https://github.com/jamesmontemagno/MediaPlugin#important-permission-information
+        /// </summary>
 		public TPPhoto ()
 		{
 			InitializeComponent ();
