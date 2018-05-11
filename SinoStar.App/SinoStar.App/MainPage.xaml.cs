@@ -14,11 +14,6 @@ namespace SinoStar.App
 		public MainPage()
 		{
 			InitializeComponent();
-		}
-
-        protected override void OnAppearing()
-        {
-            Image image = new Image();
 
             //image上添加单击Tap事件
             var tapGestureRecognizer = new TapGestureRecognizer();
@@ -30,7 +25,16 @@ namespace SinoStar.App
             };
             //tapGestureRecognizer
             H11.GestureRecognizers.Add(tapGestureRecognizer);
+        }
+
+        protected override void OnAppearing()
+        {
             base.OnAppearing();
+        }
+
+        protected override void OnDisappearing()
+        {
+            base.OnDisappearing();
         }
 
         private void ToolbarItem_Clicked(object sender, EventArgs e)
