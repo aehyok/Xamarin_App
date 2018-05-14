@@ -2,25 +2,40 @@
 using RestSharp;
 using System;
 using System.Collections.Generic;
+using System.Dynamic;
 using System.Text;
 
 namespace SinoStar.Services
 {
     public class AccountApi
     {
+        private const string Url = "http://192.168.1.74:2020";
         public static dynamic Login(string loginName,string loginPassword)
         {
-            var url = "http://192.168.1.74:2020/api/Account/Login?loginName="+loginName+"&loginPassword="+loginPassword;
-            var client = new RestClient(url);
+            //创建动态对象
+            dynamic loginModel = new ExpandoObject();
+            loginModel.LoginName = loginName;
+            loginModel.LoginPassword = loginPassword;
 
-            var request = new RestRequest("", Method.POST);
-            request.RequestFormat = DataFormat.Json;
-            request.AddParameter("loginName", loginName, ParameterType.RequestBody);
-            request.AddParameter("loginPassword", loginPassword,ParameterType.RequestBody);
+            //序列化对象为json字符串
+            var json = JsonConvert.SerializeObject(loginModel);
 
+            //定义Rest请求（post）
+            var client = new RestClient(Url);
+            var request = new RestRequest("/api/Account/Login", Method.POST)
+            {
+                RequestFormat = DataFormat.Json
+            };
+
+            //添加Body参数
+            request.AddParameter("Application/Json", json, ParameterType.RequestBody);
+
+            //执行请求
             IRestResponse response = client.Execute(request);
+
+            //处理请求返回结果
             var content = JsonConvert.DeserializeObject<dynamic>(response.Content);
-            //return content;
+
             return content;
         }
     }

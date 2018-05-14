@@ -25,11 +25,11 @@ namespace SinoStar.App.Anti_Smuggling
             var loginPassword = this.LoginPassword.Text;
             var result = AccountApi.Login(loginName, loginPassword);
 
-            if(result)
-            {
-                DisplayAlert("登录提示","登录成功！","OK");
-                Navigation.PushAsync(new MainPage());
-            }
+            //if(result)
+            //{
+            //    DisplayAlert("登录提示","登录成功！","OK");
+            //    Navigation.PushAsync(new MainPage());
+            //}
         }  
     }
 }
