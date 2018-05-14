@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SinoStar.App.Anti_Smuggling.LoginPage" Title="登录">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label HorizontalOptions="CenterAndExpand" Text="深圳缉私" FontSize="Large"></Label>
+            
+            <Label Text="登录用户"></Label>
+            
+            <Editor x:Name="LoginName" Text="zhaofudi"></Editor>
+
+            <Label Text="登录用户"></Label>
+
+            <Editor x:Name="LoginPassword" Text="zhaofudi"></Editor>
+
+            <Button Text="登录" WidthRequest="50" Clicked="Click_LoginEvent"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

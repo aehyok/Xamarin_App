@@ -44,7 +44,7 @@ namespace SinoStar.App
 
         private void Image_Focused(object sender, FocusEventArgs e)
         {
-            DisplayAlert("提示页面", "请确认操作记录？", "OK ");
+            DisplayAlert("提示页面", "请确认操作记录？", "OK");
         }
 
         private void H11_ChildAdded(object sender, ElementEventArgs e)
@@ -54,7 +54,7 @@ namespace SinoStar.App
 
         private void TapGestureRecognizer_Tapped(object sender, EventArgs e)
         {
-            DisplayAlert("提示页面", "请确认操作记录？", "OK1111 ");
+            Navigation.PushAsync(new LoginPage());
         }
     }
 }
