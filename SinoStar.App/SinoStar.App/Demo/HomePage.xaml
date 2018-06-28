@@ -4,6 +4,7 @@
              x:Class="SinoStar.App.Demo.HomePage" Title="测试版demo">
     <StackLayout>
         <Button Text="Hello World" Clicked="Button_Clicked"></Button>
+        
         <Button Text="Open MasterDetailPageTest" Clicked="Button_Clicked_1"></Button>
 
         <Button Text="Open TabbedPageTest" Clicked="Button_Clicked_2"></Button>
@@ -17,7 +18,9 @@
         <Button Text="打开PDF" Clicked="Button_Clicked_7"></Button>
 
         <Button Text="打开网页" Clicked="Button_Clicked_8"></Button>
+        
         <Button Text="Take And Pick Photo" Clicked="Button_Clicked_9"></Button>
+        
         <Button Text="QrCode" Clicked="Button_Clicked_10"></Button>
     </StackLayout>
 </ContentPage>

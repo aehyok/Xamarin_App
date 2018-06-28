@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:cells="clr-namespace:SinoStar.App.Anti_Smuggling"
-             x:Class="SinoStar.App.Anti_Smuggling.BbsMessage" Title="公告管理">
+             x:Class="SinoStar.App.Anti_Smuggling.BbsMessage" Title="待审批列表">
     <ListView x:Name="listView" HasUnevenRows="True"  ItemTapped="OnItemTapped" ItemSelected="ListView_ItemSelected">
         <ListView.ItemTemplate>
             <DataTemplate>

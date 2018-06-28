@@ -6,10 +6,16 @@ namespace SinoStar.App.Anti_Smuggling
 {
     public class ListViewItem
     {
-        public string Title { get; set; }
+        public string AJMC { get; set; }
 
-        public string Detail { get; set; }
+        public string CQSX { get; set; }
 
-        public string DateTimes { get; set; }
+        public string CQRQ { get; set; }
+
+        public string CQRY { get; set; }
+
+        public string AJID { get; set; }
+
+        public string ID { get; set; }
     }
 }

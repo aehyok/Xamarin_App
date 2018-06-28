@@ -2,12 +2,12 @@
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SinoStar.App.Anti_Smuggling.ListViewItemCell">
-    <Grid ColumnSpacing="2" Padding="5" RowSpacing="10" BackgroundColor="#EBEBEB">
+    <Grid ColumnSpacing="2" Padding="5" RowSpacing="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="20"></RowDefinition>
             <RowDefinition Height="20"></RowDefinition>
-            <RowDefinition Height="15"></RowDefinition>
-            <RowDefinition Height="2"></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="1"></RowDefinition>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="40"></ColumnDefinition>
@@ -21,20 +21,18 @@
         <Label Grid.Row="0" 
                Grid.Column="1"
                Grid.ColumnSpan="3"
-               Text="审批事项：行政处罚待审批" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"  />
+               Text="{Binding CQSX}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"  />
         <Label Grid.Row="1" 
                Grid.Column="1"
                Grid.ColumnSpan="3"
-               Text="案件名称：深圳市腾讯科技有限公司走私手机" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"  />
+               Text="{Binding AJMC}" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"  />
         <Label Grid.Row="2"
                Grid.Column="1"
                Grid.ColumnSpan="2"
-               FontSize="10"
-               Text="呈请人员：张三" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand"/>
+               Text="{Binding CQRY}" HorizontalOptions="FillAndExpand" VerticalOptions="EndAndExpand"/>
         <Label Grid.Row="2"
                Grid.Column="3"
-               FontSize="10"
-               Text="呈请时间：2018年4月24日" HorizontalOptions="End" VerticalOptions="EndAndExpand"/>
+               Text="{Binding CQRQ}" HorizontalOptions="End" VerticalOptions="EndAndExpand"/>
         <!--<StackLayout Grid.Column="0" Grid.Row="3" Grid.ColumnSpan="4">
             <BoxView HeightRequest="1" BackgroundColor="#D6D9DC"></BoxView>
         </StackLayout>-->

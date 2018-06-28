@@ -24,7 +24,7 @@ namespace SinoStar.App
                 Navigation.PushAsync(new BbsMessage());
             };
             //tapGestureRecognizer
-            H11.GestureRecognizers.Add(tapGestureRecognizer);
+            H61.GestureRecognizers.Add(tapGestureRecognizer);
         }
 
         protected override void OnAppearing()

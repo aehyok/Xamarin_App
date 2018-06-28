@@ -22,7 +22,7 @@
                 <ColumnDefinition Width="3.33*" />
             </Grid.ColumnDefinitions>
             <!--Margin应该是左上右下-->
-            <Image x:Name="H11" Margin="15,0,15,0" Grid.Column="0" Grid.Row="1"  Source="H11.png">
+            <Image Margin="15,0,15,0" Grid.Column="0" Grid.Row="1"  Source="H11.png">
             </Image>
             <Image x:Name="H21"  Margin="15,0,15,0" Grid.Column="1" Grid.Row="1" Source="H21.png">
                 <Image.GestureRecognizers>
@@ -37,7 +37,7 @@
 
             <Image  Margin="15,0,15,0" Grid.Column="0" Grid.Row="3" Source="H41.png"></Image>
             <Image  Margin="15,0,15,0" Grid.Column="1" Grid.Row="3" Source="H51.png"></Image>
-            <Image  Margin="15,0,15,0" Grid.Column="2" Grid.Row="3" Source="H61.png"></Image>
+            <Image  x:Name="H61" Margin="15,0,15,0" Grid.Column="2" Grid.Row="3" Source="H61.png"></Image>
 
             <Label Text="预警提示" Margin="10,0,10,0" Grid.Column="0" Grid.Row="4" HorizontalTextAlignment="Center" FontSize="Default"></Label>
             <Label Text="现场取证" Margin="10,0,10,0" Grid.Column="1" Grid.Row="4" HorizontalTextAlignment="Center" FontSize="Default"></Label>

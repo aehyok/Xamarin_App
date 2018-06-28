@@ -7,9 +7,12 @@ using System.Text;
 
 namespace SinoStar.Services
 {
+    /// <summary>
+    /// 账户管理
+    /// </summary>
     public class AccountApi
     {
-        private const string Url = "http://192.168.1.74:2020";
+        private const string Url = "http://192.168.1.27:8098";
         public static dynamic Login(string loginName,string loginPassword)
         {
             //创建动态对象
