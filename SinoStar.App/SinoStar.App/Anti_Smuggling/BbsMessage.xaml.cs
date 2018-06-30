@@ -23,7 +23,7 @@ namespace SinoStar.App.Anti_Smuggling
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            var url = "http://192.168.1.27:8098/api/Case/List";
+            var url = "http://192.168.1.74:8098/api/Case/List";
 
             var client = new RestClient(url);
 

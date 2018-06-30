@@ -62,7 +62,7 @@ namespace SinoStar.App.Demo
         /// <param name="e"></param>
         private void Button_Clicked_7(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new PdfViewPage());
+            Navigation.PushAsync(new PdfViewPage(""));
         }
 
         /// <summary>

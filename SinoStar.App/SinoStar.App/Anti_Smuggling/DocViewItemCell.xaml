@@ -2,7 +2,7 @@
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SinoStar.App.Anti_Smuggling.DocViewItemCell">
-    <Grid ColumnSpacing="2" Padding="5" RowSpacing="4">
+    <Grid ColumnSpacing="2" Padding="15" RowSpacing="4">
         <Grid.RowDefinitions>
             <RowDefinition Height="20"></RowDefinition>
             <RowDefinition Height="1"></RowDefinition>

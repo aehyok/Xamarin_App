@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:SinoStar.App"
              x:Class="SinoStar.App.Demo.PdfViewPage" Title="Open a PDF">
     <ContentPage.Content>
-        <local:PdfWebView Uri="100100.pdf" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
+        <local:PdfWebView x:Name="Pdf"  HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
     </ContentPage.Content>
 </ContentPage>

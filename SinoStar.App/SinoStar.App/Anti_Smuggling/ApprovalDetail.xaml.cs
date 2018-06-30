@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using RestSharp;
+using SinoStar.App.Demo;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -26,7 +27,7 @@ namespace SinoStar.App.Anti_Smuggling
         {
             base.OnAppearing();
 
-            var url = "http://192.168.1.27:8098/api/Case/GetDocList";
+            var url = "http://192.168.1.74:8098/api/Case/GetDocList";
 
             var client = new RestClient(url);
 
@@ -52,10 +53,10 @@ namespace SinoStar.App.Anti_Smuggling
         {
             if (e == null) return;
             var item = e.Item as ListDocView;
-            Debug.WriteLine("Tapped: " + e.Item);
+            Debug.WriteLine("Tapped: " + item.DocId);
             DisplayAlert("提示页面", e.Item.ToString(), "OK ");
 
-            //Navigation.PushAsync(new ApprovalDetail());
+            Navigation.PushAsync(new PdfViewPage(item.DocId));
         }
         private void ListView_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
